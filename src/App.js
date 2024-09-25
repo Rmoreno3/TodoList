@@ -1,9 +1,11 @@
-import logo from './platzi.webp';
-import './App.css';
+import logo from "./platzi.webp";
+import TodoItem from "./TodoItem";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <TodoItem />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
